@@ -173,7 +173,7 @@ hr {
 
 .pfp {
     padding-top: 20px;
-    width: 15%;
+    width: 25%;
     transition: transform .5s;
 }
 
@@ -186,6 +186,11 @@ hr {
     position: relative;
     margin-top: 100px;
     line-height: 2;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
 }
 
 .skills {
@@ -218,7 +223,7 @@ hr {
 .skill-image-2 {
     float: right;
     /* position: relative; */
-    width: 33%;
+    width: 32%;
     margin-left: 30px;
     margin-bottom: 8px;
     /* margin: -70px 0 -20px -10px; */

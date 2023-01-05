@@ -1,0 +1,348 @@
+body {
+    background-color: white;
+    margin: 0;
+    margin-bottom: 0;
+    font-family: 'Merriweather', serif;
+    font-size: smaller;
+}
+
+h1 {
+    color: #333D29;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.5rem;
+}
+
+h2 {
+    color: #627359;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+h3 {
+    /* color: #656D4A; */
+    color: #77896b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+}
+
+a {
+    color: #656D4A;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 3%;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #e4f6da;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+hr {
+    background-color: transparent;
+    border-style: dotted none none none;
+    border-color: #bdbeb0;
+    border-width: 6px;
+    height: 0px;
+    width: 3%;
+    margin: 75px auto;
+}
+
+.top-container {
+    text-align: center;
+    background-color: #94ac86;
+    border-style: solid;
+    border-width: 0;
+    position: relative;
+    padding-top: 11%;
+}
+
+.heading-name {
+    position: relative;
+}
+
+.heading-subtext {
+    position: relative;
+    color: #333D29;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.flower-1 {
+    position: relative;
+    width: 10%;
+    top: 3px;
+    margin: 0 2%;
+    transition: transform .5s;
+}
+
+.flower-1:hover{
+    transform: scale(1.15);
+}
+
+.flower-2 {
+    position: relative;
+    width: 5.5%;
+    top: 3px;
+    margin: 0 2%;
+    transition: transform .5s;
+}
+
+.flower-2:hover {
+    transform: scale(1.15);
+}
+
+.flower-3 {
+    position: relative;
+    width: 11%;
+    top: 3px;
+    margin: 0 2%;
+    transition: transform .5s;
+}
+
+.flower-3:hover {
+    transform: scale(1.15);
+}
+
+.flower-4 {
+    position: relative;
+    width: 7.5%;
+    top: 3px;
+    margin: 0 2%;
+    transition: transform .5s;
+}
+
+.flower-4:hover {
+    transform: scale(1.15);
+}
+
+.flower-5 {
+    position: relative;
+    width: 6%;
+    top: 3px;
+    margin: 0 2%;
+    transition: transform .5s;
+}
+
+.flower-5:hover {
+    transform: scale(1.15);
+}
+
+.cloud-1 {
+    position: absolute;
+    height: 50px;
+    left: 17%;
+    top: 270px;
+    transition: transform .5s;
+}
+
+.cloud-1:hover {
+    transform: scale(1.2);
+}
+
+.cloud-2 {
+    position: absolute;
+    height: 50px;
+    top: 180px;
+    right: 17%;
+    transition: transform .5s;
+}
+
+.cloud-2:hover {
+    transform: scale(1.2);
+}
+
+.pfp {
+    padding-top: 20px;
+    width: 15%;
+}
+
+
+.greeting-container {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    line-height: 2;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skill-row {
+    position: relative;
+    margin: 60px auto 120px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-image-1 {
+    float: left;
+    /* position: relative; */
+    width: 30%;
+    margin-right: 10px;
+    margin-left: -10px;
+    /* margin: -70px 0 -20px -10px; */
+}
+
+.skill-image-2 {
+    float: right;
+    /* position: relative; */
+    width: 30%;
+    margin-right: 10px;
+    /* margin: -70px 0 -20px -10px; */
+}
+
+.skill-row-heading {
+    padding-top: 15px;
+}
+
+.project-link {
+    color: #94ac86;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    text-decoration: none;
+    margin: 0;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+.project-link:link {
+    text-decoration: none;
+}
+
+.project-link:visited {
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: #607056;
+}
+
+.project-link:active {
+    text-decoration: none;
+}
+
+
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #94ac86;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+
+    transition: background-color 0.2s;
+}
+  
+.btn:hover {
+    background: #7a8e6f;
+    text-decoration: none;
+}
+
+
+.bottom-container {
+    text-align: center;
+    background-color: #94ac86;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.footer-link {
+    position: relative;
+    top: 40px;
+}
+
+.copyright {
+    position: relative;
+    top: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+/* PROJECTS PAGE */
+
+.marble-solitaire {
+    text-align: center;
+    width: 50%;
+    margin: 60px auto;
+    line-height: 2;
+}
+
+.hangman {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+.flood-it {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+.n-bullets {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+.maze-generator {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+
+.github-note {
+    color: #94ac86;
+    text-align: center;
+    font-size: smaller;
+    position: relative;
+    bottom: 10px;
+}
+
+.this-website {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+

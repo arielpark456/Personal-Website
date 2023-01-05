@@ -174,8 +174,12 @@ hr {
 .pfp {
     padding-top: 20px;
     width: 15%;
+    transition: transform .5s;
 }
 
+.pfp:hover {
+    transform: scale(1.2);
+}
 
 .greeting-container {
     text-align: center;
@@ -200,17 +204,27 @@ hr {
     float: left;
     /* position: relative; */
     width: 30%;
-    margin-right: 10px;
-    margin-left: -10px;
+    margin-right: 12px;
+    /* margin-left: -10px; */
     /* margin: -70px 0 -20px -10px; */
+    transition: transform .5s;
+}
+
+.skill-image-1:hover {
+    transform: scale(1.1);
 }
 
 .skill-image-2 {
     float: right;
     /* position: relative; */
     width: 30%;
-    margin-right: 10px;
+    margin-left: 12px;
     /* margin: -70px 0 -20px -10px; */
+    transition: transform .5s;
+}
+
+.skill-image-2:hover {
+    transform: scale(1.1);
 }
 
 .skill-row-heading {

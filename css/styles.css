@@ -178,7 +178,7 @@ hr {
 }
 
 .pfp:hover {
-    transform: scale(1.2);
+    transform: scale(1.17);
 }
 
 .greeting-container {
@@ -203,32 +203,34 @@ hr {
 .skill-image-1 {
     float: left;
     /* position: relative; */
-    width: 30%;
-    margin-right: 12px;
+    width: 32%;
+    margin-right: 30px;
+    margin-bottom: 8px;
     /* margin-left: -10px; */
     /* margin: -70px 0 -20px -10px; */
     transition: transform .5s;
 }
 
 .skill-image-1:hover {
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 .skill-image-2 {
     float: right;
     /* position: relative; */
-    width: 30%;
-    margin-left: 12px;
+    width: 33%;
+    margin-left: 30px;
+    margin-bottom: 8px;
     /* margin: -70px 0 -20px -10px; */
     transition: transform .5s;
 }
 
 .skill-image-2:hover {
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 .skill-row-heading {
-    padding-top: 15px;
+    line-height: 1;
 }
 
 .project-link {
@@ -266,7 +268,7 @@ hr {
     -webkit-border-radius: 3;
     -moz-border-radius: 3;
     border-radius: 3px;
-    font-family: Georgia;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     background: #94ac86;
@@ -281,6 +283,7 @@ hr {
 .btn:hover {
     background: #7a8e6f;
     text-decoration: none;
+    color: white;
 }
 
 

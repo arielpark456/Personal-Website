@@ -4,6 +4,8 @@ body {
     font-family: "Merriweather", serif;
     font-size: smaller;
     text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 html {
@@ -103,7 +105,7 @@ hr {
     border-style: solid;
     border-width: 0;
     position: relative;
-    padding-top: 6%;
+    padding-top: 80px;
 }
 
 .heading-name {
@@ -121,11 +123,17 @@ hr {
     transition: ease 0.8s;
 }
 
+/* .flower-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+} */
+
 .flower-1 {
     position: relative;
     width: 10%;
-    top: 1.7px;
     margin: 0 2%;
+    vertical-align: bottom;
     transition: transform 0.5s;
 }
 
@@ -136,8 +144,8 @@ hr {
 .flower-2 {
     position: relative;
     width: 5.5%;
-    top: 5.1px;
     margin: 0 2%;
+    vertical-align: bottom;
     transition: transform 0.5s;
 }
 
@@ -148,8 +156,8 @@ hr {
 .flower-3 {
     position: relative;
     width: 11%;
-    top: 2.7px;
     margin: 0 2%;
+    vertical-align: bottom;
     transition: transform 0.5s;
 }
 
@@ -160,8 +168,8 @@ hr {
 .flower-4 {
     position: relative;
     width: 7.5%;
-    top: 0px;
     margin: 0 2%;
+    vertical-align: bottom;
     transition: transform 0.5s;
 }
 
@@ -172,8 +180,8 @@ hr {
 .flower-5 {
     position: relative;
     width: 5.8%;
-    top: 6.7px;
     margin: 0 2%;
+    vertical-align: bottom;
     transition: transform 0.5s;
 }
 
@@ -185,7 +193,7 @@ hr {
     position: absolute;
     height: 50px;
     left: 10px;
-    top: 230px;
+    top: 220px;
     transition: ease transform 0.5s, ease margin 0.9s;
 }
 
@@ -196,7 +204,7 @@ hr {
 .cloud-2 {
     position: absolute;
     height: 50px;
-    top: 110px;
+    top: 90px;
     right: 10px;
     transition: ease transform 0.5s, ease margin 0.9s;
 }

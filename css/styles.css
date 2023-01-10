@@ -1,22 +1,27 @@
 body {
     background-color: white;
-    margin: 0;
-    margin-bottom: 0;
-    font-family: 'Merriweather', serif;
+    margin: 0 0 0 0;
+    font-family: "Merriweather", serif;
     font-size: smaller;
+    text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 h1 {
-    color: #333D29;
-    margin-top: 100px;
+    color: #333d29;
+    margin-top: 70px;
     margin-bottom: 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.5rem;
+    font-family: "Sacramento", cursive;
+    font-size: 5.3rem;
 }
 
 h2 {
     color: #627359;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    line-height: 3;
     font-size: 1.5rem;
     font-weight: bolder;
 }
@@ -24,13 +29,13 @@ h2 {
 h3 {
     /* color: #656D4A; */
     color: #77896b;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.15rem;
 }
 
 a {
-    color: #656D4A;
-    font-family: 'Montserrat', sans-serif;
+    color: #656d4a;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     margin: 3%;
     -webkit-transition: color 0.2s ease-out;
@@ -60,11 +65,36 @@ a:active {
 hr {
     background-color: transparent;
     border-style: dotted none none none;
-    border-color: #bdbeb0;
+    border-color: #132303;
     border-width: 6px;
     height: 0px;
     width: 30px;
     margin: 75px auto;
+}
+
+.my-navbar {
+    text-align: right;
+    background-color: #94ac86;
+    height: 5%;
+    padding-top: 5px;
+    line-height: 0;
+    padding-right: 6%;
+}
+
+.navbar-img {
+    height: 33px;
+}
+
+.navbar-img-link {
+    margin: 0;
+}
+
+.nav-link-on {
+    color: #b6d0a7;
+}
+
+.nav-link-on:hover {
+    color: #abc49c;
 }
 
 .top-container {
@@ -73,115 +103,116 @@ hr {
     border-style: solid;
     border-width: 0;
     position: relative;
-    padding-top: 11%;
+    padding-top: 6%;
 }
 
 .heading-name {
     position: relative;
+    font-weight: 600;
+    bottom: 14px;
+    transition: ease 0.8s;
 }
 
 .heading-subtext {
     position: relative;
-    color: #333D29;
+    color: #333d29;
     margin-top: 5px;
     font-size: 1.1rem;
+    transition: ease 0.8s;
 }
 
 .flower-1 {
     position: relative;
     width: 10%;
-    top: 3px;
+    top: 1.7px;
     margin: 0 2%;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
-.flower-1:hover{
+/* .flower-1:hover{
     transform: scale(1.15);
-}
+} */
 
 .flower-2 {
     position: relative;
     width: 5.5%;
-    top: 3px;
+    top: 5.1px;
     margin: 0 2%;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
-.flower-2:hover {
+/* .flower-2:hover {
     transform: scale(1.15);
-}
+} */
 
 .flower-3 {
     position: relative;
     width: 11%;
-    top: 3px;
+    top: 2.7px;
     margin: 0 2%;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
-.flower-3:hover {
+/* .flower-3:hover {
     transform: scale(1.15);
-}
+} */
 
 .flower-4 {
     position: relative;
     width: 7.5%;
-    top: 3px;
+    top: 0px;
     margin: 0 2%;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
-.flower-4:hover {
+/* .flower-4:hover {
     transform: scale(1.15);
-}
+} */
 
 .flower-5 {
     position: relative;
-    width: 6%;
-    top: 3px;
+    width: 5.8%;
+    top: 6.7px;
     margin: 0 2%;
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
-.flower-5:hover {
+/* .flower-5:hover {
     transform: scale(1.15);
-}
+} */
 
 .cloud-1 {
     position: absolute;
     height: 50px;
-    left: 17%;
-    top: 270px;
-    transition: transform .5s;
+    left: 10px;
+    top: 230px;
+    transition: ease transform 0.5s, ease margin 0.9s;
 }
 
-.cloud-1:hover {
+/* .cloud-1:hover {
     transform: scale(1.2);
-}
+} */
 
 .cloud-2 {
     position: absolute;
     height: 50px;
-    top: 180px;
-    right: 17%;
-    transition: transform .5s;
+    top: 110px;
+    right: 10px;
+    transition: ease transform 0.5s, ease margin 0.9s;
 }
 
-.cloud-2:hover {
+/* .cloud-2:hover {
     transform: scale(1.2);
-}
+} */
 
 .pfp {
-    padding-top: 20px;
-    width: 25%;
-    transition: transform .5s;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    width: 180px;
+    transition: ease transform 0.5s;
 }
 
-.pfp:hover {
-    transform: scale(1.17);
-}
-
-.greeting-container {
+.middle-container {
     text-align: center;
     position: relative;
     margin-top: 100px;
@@ -208,39 +239,31 @@ hr {
 .skill-image-1 {
     float: left;
     /* position: relative; */
-    width: 32%;
-    margin-right: 30px;
+    width: 180px;
+    margin-right: 40px;
     margin-bottom: 8px;
     /* margin-left: -10px; */
     /* margin: -70px 0 -20px -10px; */
-    transition: transform .5s;
-}
-
-.skill-image-1:hover {
-    transform: scale(1.12);
+    transition: ease transform 0.5s;
 }
 
 .skill-image-2 {
     float: right;
     /* position: relative; */
-    width: 32%;
-    margin-left: 30px;
+    width: 180px;
+    margin-left: 40px;
     margin-bottom: 8px;
     /* margin: -70px 0 -20px -10px; */
-    transition: transform .5s;
-}
-
-.skill-image-2:hover {
-    transform: scale(1.12);
+    transition: ease transform 0.5s;
 }
 
 .skill-row-heading {
-    line-height: 1;
+    line-height: 2;
 }
 
 .project-link {
     color: #94ac86;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-weight: 900;
     text-decoration: none;
     margin: 0;
@@ -268,12 +291,37 @@ hr {
     text-decoration: none;
 }
 
+.contact-me {
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.back-to-top {
+    display: block;
+    margin: -20px auto 0 auto;
+    color: #94ac86;
+}
+
+.back-to-top:hover {
+    color: #94ac86;
+}
+
+.back-to-top-img {
+    display: block;
+    margin: 0 auto;
+    transition: ease padding-top 0.3s;
+}
+
+.back-to-top-img:hover {
+    padding-top: 5px;
+}
 
 .btn {
     -webkit-border-radius: 3;
     -moz-border-radius: 3;
     border-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #ffffff;
     font-size: 20px;
     background: #94ac86;
@@ -284,13 +332,12 @@ hr {
 
     transition: background-color 0.2s;
 }
-  
+
 .btn:hover {
     background: #7a8e6f;
     text-decoration: none;
     color: white;
 }
-
 
 .bottom-container {
     text-align: center;
@@ -306,51 +353,23 @@ hr {
 
 .copyright {
     position: relative;
+    padding-top: 30px;
     top: 50px;
     color: white;
+    font-size: 0.7rem;
 }
-
-
-
-
-
-
 
 /* PROJECTS PAGE */
 
-.marble-solitaire {
-    text-align: center;
-    width: 50%;
-    margin: 60px auto;
-    line-height: 2;
+.project-container {
+    padding: 70px;
+    margin: 0;
 }
 
-.hangman {
+.project {
     text-align: center;
-    width: 50%;
-    margin: auto;
     line-height: 2;
-}
-
-.flood-it {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    line-height: 2;
-}
-
-.n-bullets {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    line-height: 2;
-}
-
-.maze-generator {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    line-height: 2;
+    padding: 3%;
 }
 
 .github-note {
@@ -358,13 +377,81 @@ hr {
     text-align: center;
     font-size: smaller;
     position: relative;
-    bottom: 10px;
 }
 
-.this-website {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    line-height: 2;
+.proj-img {
+    width: 75%;
 }
 
+/* MEDIA QUERY */
+@media (min-width: 992px) {
+    .cloud-1 {
+        margin-left: 190px;
+        margin-top: -30px;
+    }
+
+    .cloud-2 {
+        margin-right: 200px;
+        margin-top: -40px;
+    }
+
+    .heading-name {
+        font-size: 6rem;
+    }
+
+    .heading-subtext {
+        font-size: 1.3rem;
+    }
+
+    .pfp {
+        transform: scale(1.18);
+    }
+
+    .skill-image-1 {
+        transform: scale(1.1);
+    }
+
+    .skill-image-2 {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 767px) {
+    .cloud-1 {
+        transform: scale(0.8);
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+
+    .cloud-2 {
+        transform: scale(0.8);
+        margin-right: -90px;
+        margin-top: 20px;
+    }
+
+    .heading-name {
+        font-size: 4.3rem;
+    }
+
+    .heading-subtext {
+        font-size: 0.9rem;
+    }
+
+    .pfp {
+        transform: scale(0.9);
+    }
+
+    .skill-image-1 {
+        transform: scale(0.9);
+    }
+
+    .skill-image-2 {
+        float: none;
+        margin: auto;
+        transform: scale(0.9);
+    }
+
+    /* .web-dev {
+        padding-top: 165px;
+    } */
+}
